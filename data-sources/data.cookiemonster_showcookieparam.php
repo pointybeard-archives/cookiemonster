@@ -6,9 +6,9 @@
 			return array(
 					 'name' => 'Cookie Monster: Show Cookie Parameters',
 					 'author' => array(
-							'name' => 'Symphony Team',
-							'website' => 'http://symphony21.com',
-							'email' => 'team@symphony21.com'),
+							'name' => 'Symphonists (Symphony Community)',
+							'website' => 'http://symphony-cms.com',
+							'email' => 'team@symphony-cms.com'),
 					 'version' => '1.0',
 					 'release-date' => '2008-04-29');	
 		}

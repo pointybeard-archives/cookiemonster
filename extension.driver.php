@@ -6,9 +6,9 @@
 			return array('name' => 'Cookie Monster',
 						 'version' => '1.1',
 						 'release-date' => '2008-05-16',
-						 'author' => array('name' => 'Symphony Team',
-										   'website' => 'http://www.symphony21.com',
-										   'email' => 'team@symphony21.com')
+						 'author' => array('name' => 'Symphonists (Symphony Community)',
+										   'website' => 'http://www.symphony-cms.com',
+										   'email' => 'team@symphony-cms.com')
 				 		);
 		}
 		
@@ -24,7 +24,7 @@
 		
 		public function addCookieValuesToPageParam($context){
 			
-			if($this->_Parent->Configuration->get('display-in-page-param', 'cookiemonster') == 'no') return;
+			if(Symphony::Configuration()->get('display-in-page-param', 'cookiemonster') == 'no') return;
 			
 			$Cookie = new Cookie(__SYM_COOKIE_PREFIX__ . '-cookiemonster', TWO_WEEKS, __SYM_COOKIE_PATH__);			
 			

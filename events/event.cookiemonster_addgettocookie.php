@@ -8,9 +8,15 @@
 					
 			return array(
 						 'name' => 'Cookie Monster: Add GET variable to cookie',
-						 'author' => array('name' => 'Alistair Kearney',
+						 'author' => array(
+							 		 array('name' => 'Alistair Kearney',
 										   'website' => 'http://www.pointybeard.com',
 										   'email' => 'alistair@pointybeard.com'),
+									 array(
+										   'name' => 'Symphonists (Symphony Community)',
+										   'website' => 'http://symphony-cms.com',
+										   'email' => 'team@symphony-cms.com')
+									 ),
 						 'version' => '1.0',
 						 'release-date' => '2008-04-29',						 
 					);						 
