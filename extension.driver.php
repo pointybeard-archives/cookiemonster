@@ -16,7 +16,7 @@
 			return array(
 						array(
 							'page' => '/frontend/',
-							'delegate' => 'ManipulatePageParameters',
+							'delegate' => 'FrontendParamsResolve',
 							'callback' => 'addCookieValuesToPageParam'
 						),						
 			);
