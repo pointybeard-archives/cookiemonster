@@ -5,7 +5,7 @@
 		public function about(){
 			return array('name' => 'Cookie Monster',
 						 'version' => '1.1',
-						 'release-date' => '2008-05-16',
+						 'release-date' => '2012-01-02',
 						 'author' => array('name' => 'Symphonists (Symphony Community)',
 										   'website' => 'http://www.symphony-cms.com',
 										   'email' => 'team@symphony-cms.com')
